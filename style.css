@@ -12,7 +12,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 45px;
+    padding: 15px 45px;
 }
 
 .header_logo{
@@ -46,7 +46,7 @@ li{
 .header_info{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 7px;
     padding: 0;
     margin: 0;
 }
@@ -64,13 +64,27 @@ h1{
 }
 
 button{
-    background-color: #3882F6;
+    /* background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 15px;
-    width: 100px;
-    height: 50px;
-    height: auto;
+    min-width: 150px;
+    max-height: 50px;
     padding: 5px 10px;
+    margin-top: 5px;
+    border: none; */
+
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    max-width: 125px;
+    max-height: 40px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border: none;
+    flex: 0 0 auto;
+    font-size: large;
+    font-weight: bolder;
 }
 
 
@@ -114,6 +128,9 @@ button{
     color: #1F2937;
 }
 
+.photo{
+    border-radius: 10px;
+}
 
 
 
@@ -145,14 +162,14 @@ button{
 
 .box_4{
     background-color: white;
-    padding: 100px 410px 
+    padding: 100px 250px 
 
 }
 
 .call_to_action{
     background-color: #3882F6;
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 75px;
     justify-content: space-between;
     border-radius: 10px;
 
@@ -182,10 +199,19 @@ button{
 
 
 .call_button{
-    color: #eefdff;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    min-width: 125px;
+    max-height: 40px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border: 2px solid white;
+    flex: 0 0 auto;
     font-size: large;
-    border-style: none;
-    outline-color: white;
-
-
+    font-weight: bolder;
 }
+
+
+
+    
