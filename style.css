@@ -64,16 +64,6 @@ h1{
 }
 
 button{
-    /* background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 15px;
-    min-width: 150px;
-    max-height: 50px;
-    padding: 5px 10px;
-    margin-top: 5px;
-    border: none; */
-
-
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
@@ -212,6 +202,16 @@ button{
     font-weight: bolder;
 }
 
+.box_5{
+    background-color: #1F2937;
+    padding: 50px;
+    text-align: center;
+
+}
 
 
+body{
+    margin: 0;
+    color: #E5E7EB;
+}
     
